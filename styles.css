@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #6a0f49;
+}
+
+.card {
+  background-color: #e0b1cb;
+  border-radius: 5px;
+}
+
+.recipe-title {
+  text-align: center;
+  font-family: "Caveat", cursive;
+}
+
+.button {
+  margin-top: 1em;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+}
