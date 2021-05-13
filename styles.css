@@ -21,17 +21,24 @@ body {
   background-color: #6a0f49;
 }
 
+.page-title {
+  text-align: center;
+  color: #e0b1cb;
+}
+
 .card {
   background-color: #e0b1cb;
   border-radius: 5px;
+  padding: 1em;
+  text-align: center;
 }
 
 .recipe-title {
-  text-align: center;
   font-family: "Caveat", cursive;
 }
 
 .button {
+  font-family: "Montserrat", sans-serif;
   margin-top: 1em;
   padding: 1em;
   border: none;
