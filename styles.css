@@ -28,14 +28,21 @@ body {
 }
 
 .card {
+  margin: 1em;
   background-color: #e0b1cb;
   border-radius: 5px;
   padding: 1em;
   text-align: center;
+  overflow-y: scroll;
 }
 
 .recipe-title {
   font-family: "Caveat", cursive;
+}
+
+.recipe-category,
+.recipe-area {
+  font-style: italic;
 }
 
 .button {
