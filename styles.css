@@ -12,6 +12,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-decoration: underline;
+}
+
 .flex-container {
   display: flex;
   height: 100vh;
@@ -39,8 +49,7 @@ body {
   font-family: "Caveat", cursive;
 }
 
-.recipe-category,
-.recipe-area {
+.recipe-instructions {
   font-style: italic;
 }
 
